@@ -1,0 +1,44 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Model Viewer</title>
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+        <style>
+            model-viewer {
+                width: 700px;
+                height: 800px;
+                margin: 0 auto;
+            }
+        </style>
+        <link rel="stylesheet" href="3d.css">
+        <link rel="shortcut icon" type="image/x-icon" href="08150C59-14A9-42FE-8A95-30358E7708D3-removebg-preview.ico" />
+    </head>
+    <body>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="info.html">About Our Startup</a></li>
+            <li><a class="active" href="3d.html">The Arm Interface Device</a></li>
+            <li style="float:right"><a href="about.html">About Us</a></li>
+        </ul>
+        <div>
+            <h1 style="color: aliceblue;">The 3D Model</h1>
+        </div>
+        <div class="parent">
+            <div class="child" style="float: left; background-color: antiquewhite; width: 500;">
+                <p class="text">This deviece will be placed on the astronaut's forearm and will be use to control the space suit.</p>
+                <p class="text">The astronauts will be able to modify and control the suit from the big screen which is also a touch screen that can be use with gloves. On this screen will be also desplayed the gps map system, sort of like google maps that can help the astronauts on their explorations. </p>
+                <p class="text">The small screen will show the vitals of the astronaut, like heart rate, blood preasure, oxygen level and more... </p>
+                <p class="text">The buttons will control the modes of each screen, and the big red one will start and shutdown the deviece</p>
+            </div>
+            <div class="child" style="height:10;">
+                <model-viewer style="height: 700;" src="tinker.glb" camera-controls auto-rotate ar ios-src="iphone.usdz" android-src="android.usdz"></model-viewer>
+            </div>
+        </div>
+        <footer>
+            <div style="margin-left: 1700px; height: 10px; margin-top: 490;">
+                <img width="200" src="logo1.png" alt="">      
+            </div>
+        </footer>
+    </body>
+</html>

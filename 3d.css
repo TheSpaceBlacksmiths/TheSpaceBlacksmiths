@@ -1,0 +1,79 @@
+body {
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-image: url("better-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.purchase {
+  text-align: center;
+  font-size: 13px;
+  font-family: 'Rubik Beastly', cursive;
+  font-weight: bold;
+  border-radius: 20px;
+  color: aliceblue;
+}
+
+img {
+  border-radius: 2%;
+}
+
+.parent {
+  border: none;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.child {
+  display: inline-block;
+  border: none;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 1900px;
+    margin-right: 100px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  li a:hover {
+    background-color: #d45e2bef;
+  }
+
+.active {
+background-color: #d45e2bef;
+}
+
+.text {
+  text-align: left;
+  font-size: 25px;
+  font-weight: 500px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+  margin-left: 10px;
+  width: 600px;
+}
